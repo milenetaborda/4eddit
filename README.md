@@ -4,13 +4,6 @@ Desenvolvimento de aplicações completas, incluindo frontend Web com React e ba
 
 ## Projeto: 4eddit
 
-<p align="center">
-  <img  width='200' src=''>
-  <img  width='200' src=''>
-  <img  width='200' src=''>
-</p>
-
-
 [Site do projeto](http://milky-scent.surge.sh/)
 <br>
 **Desenvolvido por:** [Milene Taborda](https://www.linkedin.com/in/milene-taborda/) e Gabriela Salvo.
@@ -36,4 +29,41 @@ A rede social terá 4 páginas:
 - Página de feed (lista de posts): A página de feed deverá mostrar todos os posts, além de um formulário para a criação de post. O formulário possui apenas o campo de texto. Cada post mostrará o nome de usuário que postou, o texto do post, o número de votos (positivo ou negativo) e o número de comentários. Caso o usuário tenha votado positiva ou negativamente, isso deverá estar indicado. Todas essa informações serão fornecidas pela API. Quando o usuário clicar em um post, ele deverá ser redirecionado para a página do respectivo post. Quando um usuário clicar em votar (positiva ou negativamente), uma requisição deverá ser feita indicando a "direção" do voto. Um voto positivo é indicado com o número 1. Um voto negativo é indicado com o número -1. Para remover um voto, a direção deve ser 0. Essa página só pode ser acessada por um usuário logado. Caso o usuário não esteja logado, deverá ser redirecionado para a página de login. <br>
 
 - Página de post: A página de um post mostrará o mesmo card de post da página de feed, com o usuário, texto, curtidas e número de comentários. Abaixo, terá um formulário para criação de comentários e os cards de comentários. A estrutura é muito similar à do post, mas comentários não possuem outros comentários dentro deles. A lógica de votos é a mesma do post. Essa página só pode ser acessada por um usuário logado. Caso o usuário não esteja logado, deverá ser redirecionado para a página de login.
+<br>
 
+## Principais tecnologias/ferramentas utilizadas
+
+1. React
+2. Redux
+3. Redux-Thunk: Integração do redux com requisições assíncronas.
+4. Autenticação
+5. Estilização Avançada com CSS
+6. Uso de bibliotecas de UI (MaterialUI)
+7. Aplicações com múltiplas rotas utilizando React Router
+8. Formulários com Validação
+9. Responsividade e adaptação de aplicação web para front.
+<br><br>
+
+## Como rodar a aplicação
+
+No terminal, clone o projeto:
+```
+git clone 
+```
+
+Entre na pasta do projeto:
+```
+cd 4eddit
+```
+
+Instale as dependências:
+```
+npm install
+```
+
+Execute a aplicação:
+```
+npm start 
+```
+
+<br>
